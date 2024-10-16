@@ -6,8 +6,8 @@ from scipy import interpolate as interp
 from scipy.integrate import solve_ivp
 import gsw
 import xarray as xr
-import plume
-from melt import melt_calc
+from BPTmodel import plume
+from BPTmodel.melt import melt_calc
 
 #endregion
 

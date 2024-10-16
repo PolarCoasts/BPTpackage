@@ -1,6 +1,6 @@
 import numpy as np
 import gsw
-from melt import melt_calc
+from BPTmodel.melt import melt_calc
 
 def line_plume(z,X,experiment):
 
