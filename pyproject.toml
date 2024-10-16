@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "BPTmodel"
+version = "0.1.0"
+authors = [
+    {name = "dcwheeler", email = "10646362+dcwheeler@users.noreply.github.com"},
+]
+description = "Buoyant plume theory in the context of marine-terminating glaciers."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Private :: Do Not Upload",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "gsw",
+    "xarray",
+]
+license = {text = "MIT"}
+
+[project.optional-dependencies]
+plots = ["matplotlib"]
+
+[project.urls]
+Homepage = "https://github.com/PolarCoasts/BPTModel"
+[tool.pdm]
+distribution = true
