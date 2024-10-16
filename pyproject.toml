@@ -26,7 +26,7 @@ dependencies = [
 license = {text = "MIT"}
 
 [project.optional-dependencies]
-plots = ["matplotlib"]
+plots = ["matplotlib, pyqt5"]
 
 [project.urls]
 Homepage = "https://github.com/PolarCoasts/BPTModel"
