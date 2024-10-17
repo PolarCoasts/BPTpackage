@@ -18,15 +18,15 @@ classifiers = [
     "Private :: Do Not Upload",
 ]
 dependencies = [
-    "numpy",
-    "scipy",
-    "gsw",
-    "xarray",
+    "numpy>=1.26.0",
+    "scipy>=1.13.0",
+    "gsw>=3.6.0",
+    "xarray>=2023.6.0",
 ]
 license = {text = "MIT"}
 
 [project.optional-dependencies]
-plots = ["matplotlib, pyqt5"]
+plots = ["matplotlib>=3.9.0", "pyqt5"]
 
 [project.urls]
 Homepage = "https://github.com/PolarCoasts/BPTModel"
